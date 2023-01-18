@@ -35,3 +35,45 @@ header{
     border: 2px solid;
     color: #fff;
 }
+
+/* Estilos del Hero */
+
+#hero{
+    position: relative;
+}
+
+#hero #background{
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .information-container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px;
+    
+}
+#hero .information-container #foto{
+    width: 200px;
+}
+
+#hero .information-container .information{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#hero .information-container span{
+    display: inline-block;
+    margin-bottom: 70px;
+    color: rgb(225, 225, 225);
+}
+
+
+#hero .information-container #foto img{
+    border-radius: 100%;
+}
